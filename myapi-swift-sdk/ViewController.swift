@@ -105,57 +105,46 @@ class ViewController: UIViewController {
     
     func handleDirectGeocodingSuccess(_ response: DirectGeocodingResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleReverseGeocodingSuccess(_ response: ReverseGeocodingResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleSnapRoadsSuccess(_ response: SnapRoadsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleHighwayTypeRoadsSuccess(_ response: HighwayTypeRoadsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleSpeedLimitRoadsSuccess(_ response: SpeedLimitRoadsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleDistanceRoadsSuccess(_ response: DistanceRoadsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleNearestRoadsSuccess(_ response: NearestRoadsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleRouteDirectionsSuccess(_ response: RouteDirectionsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleMatrixDirectionsSuccess(_ response: MatrixDirectionsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleTravelingSalesmanDirectionsSuccess(_ response: TravelingSalesmanDirectionsResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleSearchPlacesSuccess(_ response: SearchPlacesResponse?) {
         print("Success!")
-        //print(response)
     }
     
     func handleError(_ error: String?) {
