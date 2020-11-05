@@ -1,0 +1,6 @@
+framework module Pods_myapi_swift_sdk {
+  umbrella header "Pods-myapi-swift-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

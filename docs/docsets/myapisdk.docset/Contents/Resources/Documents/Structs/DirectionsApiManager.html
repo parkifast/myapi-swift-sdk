@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DirectionsApiManager Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/DirectionsApiManager" class="dashAnchor"></a>
+    <a title="DirectionsApiManager Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">myapisdk Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">myapisdk Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        DirectionsApiManager Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../SDK.html">SDK</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/MyapiSDK.html">MyapiSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Managerrs.html">API Managerrs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/GeocodingApiManager.html">GeocodingApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RoadsApiManager.html">RoadsApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DirectionsApiManager.html">DirectionsApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PlacesApiManager.html">PlacesApiManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Responses.html">API Responses</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DirectGeocodingResponse.html">DirectGeocodingResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseGeocodingResponse.html">ReverseGeocodingResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapRoadsResponse.html">SnapRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HighwayTypeRoadsResponse.html">HighwayTypeRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SpeedLimitRoadsResponse.html">SpeedLimitRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DistanceRoadsResponse.html">DistanceRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NearestRoadsResponse.html">NearestRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchPlacesResponse.html">SearchPlacesResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Result%20Models.html">Result Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DirectGeocodingResult.html">DirectGeocodingResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseGeocodingResult.html">ReverseGeocodingResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapRoadsResult.html">SnapRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HighwayTypeRoadsResult.html">HighwayTypeRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SpeedLimitRoadsResult.html">SpeedLimitRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DistanceRoadsResult.html">DistanceRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NearestRoadsResult.html">NearestRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteDirectionsResult.html">RouteDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MatrixDirectionsResult.html">MatrixDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanDirectionsResult.html">TravelingSalesmanDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchPlacesResult.html">SearchPlacesResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Common%20Models.html">Common Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/OSMPlaceInfo.html">OSMPlaceInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BoundingBox.html">BoundingBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Coordinate.html">Coordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AddressDetails.html">AddressDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Geometry.html">Geometry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteWaypoint.html">RouteWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Route.html">Route</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteLeg.html">RouteLeg</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteStep.html">RouteStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteIntersection.html">RouteIntersection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteStepManeuver.html">RouteStepManeuver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Lane.html">Lane</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteMatrix.html">RouteMatrix</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanWaypoint.html">TravelingSalesmanWaypoint</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enumerations.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Profile.html">Profile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GeometryType.html">GeometryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Destination.html">Destination</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>DirectionsApiManager</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">DirectionsApiManager</span></code></pre>
+
+                </div>
+              </div>
+            <p>Convenience structure for <code>DirectionsApi</code> to easily access the suite of APIs.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk20DirectionsApiManagerV9calcRoute7profile4orig4dest9waypoints12alternatives5steps10geometries8overview9onSuccess0O5ErroryAA7ProfileO_ypypypSgSbSgArA12GeometryTypeOSgAA8OverviewOSgyxSgcySSSgctSeRzSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/calcRoute(profile:orig:dest:waypoints:alternatives:steps:geometries:overview:onSuccess:onError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk20DirectionsApiManagerV9calcRoute7profile4orig4dest9waypoints12alternatives5steps10geometries8overview9onSuccess0O5ErroryAA7ProfileO_ypypypSgSbSgArA12GeometryTypeOSgAA8OverviewOSgyxSgcySSSgctSeRzSERzlF">calcRoute(profile:<wbr>orig:<wbr>dest:<wbr>waypoints:<wbr>alternatives:<wbr>steps:<wbr>geometries:<wbr>overview:<wbr>onSuccess:<wbr>onError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Directions API - Route Calculation Service: Calculates a route between an origin and a destination, possibly passing through many waypoints. It takes into consideration several configuration options in order to customize the response.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">calcRoute</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a></span><span class="p">:</span> <span class="kt">Codable</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="nv">profile</span><span class="p">:</span> <span class="kt"><a href="../Enums/Profile.html">Profile</a></span><span class="p">,</span>
+    <span class="nv">orig</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span>
+    <span class="nv">dest</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span>
+    <span class="nv">waypoints</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">alternatives</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span>
+    <span class="nv">steps</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nv">geometries</span><span class="p">:</span> <span class="kt"><a href="../Enums/GeometryType.html">GeometryType</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">polyline</span><span class="p">,</span>
+    <span class="nv">overview</span><span class="p">:</span> <span class="kt"><a href="../Enums/Overview.html">Overview</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">simplified</span><span class="p">,</span>
+    <span class="nv">onSuccess</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">DeserializedModelCompletion</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a></span><span class="o">&gt;</span><span class="p">,</span>
+    <span class="nv">onError</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">ErrorCompletion</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>profile</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The profile used to calculate the route, such as car, on_foot or bicycle.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>orig</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Origin of the route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Destination of the route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>waypoints</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Intermediate stops along the route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>alternatives</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Request alternative routes, if possible.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>steps</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Indicate steps along the route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>geometry</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Format in which to output the route representation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>overview</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>How detailed the route representation should be.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onSuccess</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with <code><a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a></code> object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onError</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with a <code>String</code> representation of the error.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a></code> object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk20DirectionsApiManagerV10calcMatrix7profile14coordinateList13sourceIndices011destinationK09onSuccess0M5ErroryAA7ProfileO_ypypSgAMyxSgcySSSgctSeRzSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/calcMatrix(profile:coordinateList:sourceIndices:destinationIndices:onSuccess:onError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk20DirectionsApiManagerV10calcMatrix7profile14coordinateList13sourceIndices011destinationK09onSuccess0M5ErroryAA7ProfileO_ypypSgAMyxSgcySSSgctSeRzSERzlF">calcMatrix(profile:<wbr>coordinateList:<wbr>sourceIndices:<wbr>destinationIndices:<wbr>onSuccess:<wbr>onError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Directions API - Time Matrix Service: This service takes as input a list of coordinates and computes in a matrix format the fastest travel time among all possible pair combinations among all the provided coordinates. If sources/destinations params are provided, those indicate a semi-colon separated list of indices that specify which of the provided coordinates should be included as sources or destinations..</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">calcMatrix</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a></span><span class="p">:</span> <span class="kt">Codable</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="nv">profile</span><span class="p">:</span> <span class="kt"><a href="../Enums/Profile.html">Profile</a></span><span class="p">,</span>
+    <span class="nv">coordinateList</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span>
+    <span class="nv">sourceIndices</span><span class="p">:</span>  <span class="kt">Any</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">destinationIndices</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+    <span class="nv">onSuccess</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">DeserializedModelCompletion</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a></span><span class="o">&gt;</span><span class="p">,</span>
+    <span class="nv">onError</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">ErrorCompletion</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>profile</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The profile used to calculate the route, such as car, on_foot or bicycle.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>coordinateList</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Semi-colon separated values indicating all the coordinates to use.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sourceIndices</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Semi-colon separated values indicating the indices of those coordinates from the list that should be used as sources. By default, if not provided, all coordinates will be used as sources.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>destinationIndices</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Semi-colon separated values indicating the indices of those coordinates from the list that should be used as destinations. By default, if not provided, all coordinates will be used as destinations.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onSuccess</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with <code><a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a></code> object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onError</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with a <code>String</code> representation of the error.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a></code> object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk20DirectionsApiManagerV17travelingSalesman7profile14coordinateList9roundtrip6source11destination5steps10geometries8overview9onSuccess0P5ErroryAA7ProfileO_ypSbSgAA6SourceOSgAA11DestinationOSgAqA12GeometryTypeOSgAA8OverviewOSgyxSgcySSSgctSeRzSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/travelingSalesman(profile:coordinateList:roundtrip:source:destination:steps:geometries:overview:onSuccess:onError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk20DirectionsApiManagerV17travelingSalesman7profile14coordinateList9roundtrip6source11destination5steps10geometries8overview9onSuccess0P5ErroryAA7ProfileO_ypSbSgAA6SourceOSgAA11DestinationOSgAqA12GeometryTypeOSgAA8OverviewOSgyxSgcySSSgctSeRzSERzlF">travelingSalesman(profile:<wbr>coordinateList:<wbr>roundtrip:<wbr>source:<wbr>destination:<wbr>steps:<wbr>geometries:<wbr>overview:<wbr>onSuccess:<wbr>onError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Directions API - Traveling Salesman Problem Resolution Service: It solves the Traveling Salesman Problem using a greedy heuristic (farthest-insertion algorithm) for 10 or more waypoints and uses brute force for less than 10 waypoints. The returned path does not have to be the fastest path. As TSP is NP-hard it only returns an approximation. Note that all input coordinates have to be connected for this service to work.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">travelingSalesman</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a></span><span class="p">:</span> <span class="kt">Codable</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="nv">profile</span><span class="p">:</span> <span class="kt"><a href="../Enums/Profile.html">Profile</a></span><span class="p">,</span>
+    <span class="nv">coordinateList</span><span class="p">:</span> <span class="kt">Any</span><span class="p">,</span>
+    <span class="nv">roundtrip</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nv">source</span><span class="p">:</span> <span class="kt"><a href="../Enums/Source.html">Source</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">any</span><span class="p">,</span>
+    <span class="nv">destination</span><span class="p">:</span> <span class="kt"><a href="../Enums/Destination.html">Destination</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">any</span><span class="p">,</span>
+    <span class="nv">steps</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nv">geometries</span><span class="p">:</span> <span class="kt"><a href="../Enums/GeometryType.html">GeometryType</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">polyline</span><span class="p">,</span>
+    <span class="nv">overview</span><span class="p">:</span> <span class="kt"><a href="../Enums/Overview.html">Overview</a></span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="n">simplified</span><span class="p">,</span>
+    <span class="nv">onSuccess</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">DeserializedModelCompletion</span><span class="o">&lt;</span><span class="kt"><a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a></span><span class="o">&gt;</span><span class="p">,</span>
+    <span class="nv">onError</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">ErrorCompletion</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>profile</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The profile used to calculate the route, such as car, on_foot or bicycle.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>coordinateList</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Semi-colon separated values indicating all the coordinates to use.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>roundtrip</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Return route is a roundtrip (route returns to first location). Possible values are: true (default) or false.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>source</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Return route starts at &ldquo;any&rdquo; or &ldquo;first&rdquo; coordinate. Possible values are: &ldquo;any&rdquo; (default) or &ldquo;first&rdquo;.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>destination</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Return route ends at &ldquo;any&rdquo; or &ldquo;last&rdquo; coordinate.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>steps</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Indicate steps along the route.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>geometry</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Format in which to output the route representation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>overview</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>How detailed the route representation should be.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onSuccess</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with <code><a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a></code> object.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>onError</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure which is called with a <code>String</code> representation of the error.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a></code> object</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://mymappi.com" target="_blank" rel="external">Parkifast Spain S.L.</a>. All rights reserved. (Last updated: 2020-06-18)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

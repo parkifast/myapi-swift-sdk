@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AddressDetails Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/AddressDetails" class="dashAnchor"></a>
+    <a title="AddressDetails Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">myapisdk Docs</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">myapisdk Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AddressDetails Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../SDK.html">SDK</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/MyapiSDK.html">MyapiSDK</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Managerrs.html">API Managerrs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/GeocodingApiManager.html">GeocodingApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RoadsApiManager.html">RoadsApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DirectionsApiManager.html">DirectionsApiManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PlacesApiManager.html">PlacesApiManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Responses.html">API Responses</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DirectGeocodingResponse.html">DirectGeocodingResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseGeocodingResponse.html">ReverseGeocodingResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapRoadsResponse.html">SnapRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HighwayTypeRoadsResponse.html">HighwayTypeRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SpeedLimitRoadsResponse.html">SpeedLimitRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DistanceRoadsResponse.html">DistanceRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NearestRoadsResponse.html">NearestRoadsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteDirectionsResponse.html">RouteDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MatrixDirectionsResponse.html">MatrixDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanDirectionsResponse.html">TravelingSalesmanDirectionsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchPlacesResponse.html">SearchPlacesResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Result%20Models.html">Result Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DirectGeocodingResult.html">DirectGeocodingResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseGeocodingResult.html">ReverseGeocodingResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SnapRoadsResult.html">SnapRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HighwayTypeRoadsResult.html">HighwayTypeRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SpeedLimitRoadsResult.html">SpeedLimitRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DistanceRoadsResult.html">DistanceRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NearestRoadsResult.html">NearestRoadsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteDirectionsResult.html">RouteDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MatrixDirectionsResult.html">MatrixDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanDirectionsResult.html">TravelingSalesmanDirectionsResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SearchPlacesResult.html">SearchPlacesResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Common%20Models.html">Common Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/OSMPlaceInfo.html">OSMPlaceInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BoundingBox.html">BoundingBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Coordinate.html">Coordinate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AddressDetails.html">AddressDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Geometry.html">Geometry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteWaypoint.html">RouteWaypoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Route.html">Route</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteLeg.html">RouteLeg</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteStep.html">RouteStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteIntersection.html">RouteIntersection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteStepManeuver.html">RouteStepManeuver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Lane.html">Lane</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RouteMatrix.html">RouteMatrix</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TravelingSalesmanWaypoint.html">TravelingSalesmanWaypoint</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enumerations.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Profile.html">Profile</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GeometryType.html">GeometryType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Overview.html">Overview</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Source.html">Source</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Destination.html">Destination</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AddressDetails</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AddressDetails</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Complex address structure representing full address.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV11houseNumberSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/houseNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV11houseNumberSSSgvp">houseNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>House number. Aliases for this are: street number.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">houseNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV12streetNumberSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/streetNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV12streetNumberSSSgvp">streetNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Street number (alias for house number).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">streetNumber</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV5houseSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/house" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV5houseSSSgvp">house</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>House</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">house</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV8buildingSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/building" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV8buildingSSSgvp">building</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Building (alias for house).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">building</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV14publicBuildingSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/publicBuilding" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV14publicBuildingSSSgvp">publicBuilding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Public Building (alias for house).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">publicBuilding</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV4roadSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/road" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV4roadSSSgvp">road</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Road. Aliases for this are: footway, street, street_name, residential, path, pedestrian, road_reference, road_reference_intl, square, place.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">road</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV7footwaySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/footway" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV7footwaySSSgvp">footway</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Footway (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">footway</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6streetSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/street" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6streetSSSgvp">street</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Street (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">street</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10streetNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/streetName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10streetNameSSSgvp">streetName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Street name (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">streetName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV11residentialSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/residential" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV11residentialSSSgvp">residential</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Residential (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">residential</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV4pathSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/path" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV4pathSSSgvp">path</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Path (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10pedestrianSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/pedestrian" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10pedestrianSSSgvp">pedestrian</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pedestrian (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">pedestrian</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV13roadReferenceSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/roadReference" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV13roadReferenceSSSgvp">roadReference</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Road reference (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">roadReference</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV17roadReferenceIntlSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/roadReferenceIntl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV17roadReferenceIntlSSSgvp">roadReferenceIntl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Road reference international (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">roadReferenceIntl</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6squareSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/square" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6squareSSSgvp">square</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Square (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">square</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV5placeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/place" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV5placeSSSgvp">place</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Place (alias for road).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">place</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV7villageSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/village" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV7villageSSSgvp">village</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Village. Aliases for this are: Hamlet, locality, croft.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">village</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6hamletSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/hamlet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6hamletSSSgvp">hamlet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Hamlet (alias for village).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">hamlet</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV8localitySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/locality" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV8localitySSSgvp">locality</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Locality (alias for village).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">locality</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV5croftSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/croft" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV5croftSSSgvp">croft</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Croft (alias for village).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">croft</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV13neighbourhoodSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/neighbourhood" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV13neighbourhoodSSSgvp">neighbourhood</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Neighbourhood. Aliases for this are: suburb, city_district, district, quarter, commercial, industrial, houses, subdivision.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">neighbourhood</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6suburbSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/suburb" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6suburbSSSgvp">suburb</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Suburb (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">suburb</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV12cityDistrictSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cityDistrict" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV12cityDistrictSSSgvp">cityDistrict</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>City district (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cityDistrict</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV8districtSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/district" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV8districtSSSgvp">district</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>District (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">district</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV7quarterSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/quarter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV7quarterSSSgvp">quarter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Quarter (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">quarter</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10commercialSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/commercial" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10commercialSSSgvp">commercial</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Commercial (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">commercial</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10industrialSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/industrial" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10industrialSSSgvp">industrial</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Industrial (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">industrial</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6housesSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/houses" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6housesSSSgvp">houses</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Houses (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">houses</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV11subdivisionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/subdivision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV11subdivisionSSSgvp">subdivision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Subdivision (alias for neighbourhood).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">subdivision</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV4citySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/city" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV4citySSSgvp">city</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>City. Aliases for this are: town, municipality.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">city</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV4townSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/town" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV4townSSSgvp">town</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Town (alias for city).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">town</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV12municipalitySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/municipality" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV12municipalitySSSgvp">municipality</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Municipality (alias for city).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">municipality</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6countySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/county" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6countySSSgvp">county</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>County. Aliases for this are: local_administrative_area, county_code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">county</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV14localAdminAreaSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/localAdminArea" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV14localAdminAreaSSSgvp">localAdminArea</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Local administrative area (alias for county).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">localAdminArea</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10countyCodeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/countyCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10countyCodeSSSgvp">countyCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>County code (alias for county).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">countyCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV13stateDistrictSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/stateDistrict" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV13stateDistrictSSSgvp">stateDistrict</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State district.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">stateDistrict</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV8postCodeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/postCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV8postCodeSSSgvp">postCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Postal code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">postCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV5stateSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV5stateSSSgvp">state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State. Aliases for this are: province, state_code.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV8provinceSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/province" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV8provinceSSSgvp">province</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Province (alias for state).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">province</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV9stateCodeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/stateCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV9stateCodeSSSgvp">stateCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>State code (alias for state).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">stateCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV6regionSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/region" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV6regionSSSgvp">region</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Region.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV7countrySSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/country" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV7countrySSSgvp">country</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Country. Aliases for this are: country_name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">country</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV11countryNameSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/countryName" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV11countryNameSSSgvp">countryName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Country name (alias for country).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">countryName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV11countryCodeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/countryCode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV11countryCodeSSSgvp">countryCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Country code (NOT an alias for country).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">countryCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV9continentSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/continent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV9continentSSSgvp">continent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Continent.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">continent</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8myapisdk14AddressDetailsV10componentsSDyS2SGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/components" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8myapisdk14AddressDetailsV10componentsSDyS2SGSgvp">components</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dictionary containing all address components, since they evolve rapidly and we cannot characterize them all.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">components</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://mymappi.com" target="_blank" rel="external">Parkifast Spain S.L.</a>. All rights reserved. (Last updated: 2020-06-18)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
