@@ -1,5 +1,5 @@
-# myapi-swift-sdk
-Swift SDK to ease interaction with myapi API suite.
+# mymappi-swift-sdk
+Swift SDK to ease interaction with mymappi API suite.
 
 # Getting Started
 
